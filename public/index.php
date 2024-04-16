@@ -1,8 +1,7 @@
 <?php
 
 include './../app/config.php';
-include './../app/Libraries/Routes.php';
-include './../app/Libraries/Controller.php';
+include './../app/autoload.php';
 
 ?>
 
