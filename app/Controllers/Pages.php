@@ -32,6 +32,17 @@ class Pages extends Controller {
 
     }
     
+    public function error() {
+        $data = [
+            'title' => 'Not Found'
+            //'descricao' => 'Curso PHP7'
+        ];
+
+        // calling route
+        $this->view('pages/error', $data);
+
+    }
+    
 }
 
 

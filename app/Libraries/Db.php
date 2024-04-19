@@ -47,7 +47,15 @@ class Db {
                 $dsn, $this->user, 
                 $this->pass, $options);
         } catch (PDOException $e) {
-            print "Error!: " . $e->getMessage() . "<br/>";
+            // print "Error!: " . $e->getMessage() . "<br/>";
+            // this phpErr (function) is only recommended in delepment enviroment
+            // put as comment if you deploy
+            phpErr(
+                $e->getCode(), 
+                $e->getMessage(), 
+                $e->getFile(), 
+                $e->getLine()
+            );
             die();
         }
     }

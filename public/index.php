@@ -1,6 +1,9 @@
 <?php
 
 session_start();
+// this phpError is only recommended in delepment enviroment
+// put as comment if you deploy
+include './../app/phpError.php';
 include './../app/config.php';
 include './../app/autoload.php';
 
