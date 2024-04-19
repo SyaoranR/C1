@@ -1,5 +1,7 @@
 <?php
 
+// Data and Communication Control with post model
+
 class Post {
     private $db;
 

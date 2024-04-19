@@ -1,5 +1,7 @@
 <?php
 
+// Data and Communication Control with user model
+
 class Posts extends Controller {
 
     public function __construct()
