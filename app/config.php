@@ -18,7 +18,7 @@ const db = [
     'HOST' => 'localhost',
     'USER' => 'root',
     'PASS' => '',
-    'DB_NAME' => 'c1_v1',
+    'DB_NAME' => 'c1',
     'PORT' => '3306'
 ];
 
@@ -36,7 +36,7 @@ const db = [
 
  define('APP', dirname(__FILE__));
 
- define('URL', 'http://localhost/C1_v1');
+ define('URL', 'http://localhost/C1');
  
  define('APP_NAME', 'Object Oriented PHP7 and MVC Course');
  
