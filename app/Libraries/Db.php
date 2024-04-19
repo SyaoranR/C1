@@ -2,11 +2,27 @@
 
 class Db {
 
-    private $host = 'localhost';
-    private $user = 'root';
-    private $pass = '';
-    private $dbName = 'c1';
-    private $port = '3306';
+    // private $host = 'localhost';
+    // private $user = 'root';
+    // private $pass = '';
+    // private $dbName = 'c1';
+    // private $port = '3306';
+    // private $db_Conn;
+    // private $stmt;   
+    
+    // private $host = HOST;
+    // private $user = USER;
+    // private $pass = PASS;
+    // private $dbName = DB_NAME;
+    // private $port = PORT;
+    // private $db_Conn;
+    // private $stmt;    
+
+    private $host = db['HOST'];
+    private $user = db['USER'];
+    private $pass = db['PASS'];
+    private $dbName = db['DB_NAME'];
+    private $port = db['PORT'];
     private $db_Conn;
     private $stmt;    
 

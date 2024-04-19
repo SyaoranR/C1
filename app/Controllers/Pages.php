@@ -2,7 +2,13 @@
 
 class Pages extends Controller {
 
-    public function index() {              
+    public function index() {             
+        if(Session::logged()):
+            // UNCOMMENT WHEN NOT IN DEVELOPMENT
+            // COMMENT ONLY FOR TESTING
+            URL::redirect('posts');
+        endif;
+        
         //  $this->view('pages/home', 
         //  ['titulo' => 'Initial Page']);
         $data = [
