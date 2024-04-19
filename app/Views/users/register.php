@@ -4,7 +4,7 @@
             Register
         </div>
         <div class="card-body">
-            <p class="card-text"><small>Fill the form below toregister</small></p>
+            <p class="card-text"><small>Fill the form below to register</small></p>
             <form name="register" method="POST" action="<?= URL ?>/users/register">
 
                 <div class="form-group">
