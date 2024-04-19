@@ -6,7 +6,7 @@ class Pages extends Controller {
         if(Session::logged()):
             // UNCOMMENT WHEN NOT IN DEVELOPMENT
             // COMMENT ONLY FOR TESTING
-            URL::redirect('posts');
+            Url::redirect('posts');
         endif;
         
         //  $this->view('pages/home', 

@@ -7,7 +7,7 @@ class Posts extends Controller {
         if(!Session::logged()):
             // UNCOMMENT WHEN NOT IN DEVELOPMENT
             // COMMENT ONLY FOR TESTING
-            URL::redirect('users/login');
+            Url::redirect('users/login');
         endif;
 
          // Calling database communication models 
