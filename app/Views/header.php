@@ -2,19 +2,19 @@
     <div class="container">
         <nav class="navbar navbar-expand-sm navbar-dark">
         <style type="text/css">
-            .circle-img {
+            .sqr-img {
                 width: 70px;
                 height: 70px;
                 overflow: hidden;
             }
             
-            .circle-img img {
+            .sqr-img img {
                 height: 100%;
                 transform: translateX(-50%);
                 margin-left: 50%;
             }        
         </style>
-            <a class="navbar-brand" href="<?=URL?>"><img class="circle-img" src="<?=URL?>/public/imgs/logo.png"></a>
+            <a class="navbar-brand" href="<?=URL?>"><img class="sqr-img" src="<?=URL?>/public/imgs/logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
